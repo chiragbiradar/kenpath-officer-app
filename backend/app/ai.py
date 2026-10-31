@@ -10,6 +10,7 @@ from typing import Literal
 
 from pydantic import BaseModel
 from pydantic_ai import Agent
+from pydantic_ai.models.google import GoogleModel
 from pydantic_ai.providers.google import GoogleProvider
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -124,7 +125,7 @@ async def get_or_create_analysis(
     try:
         provider = GoogleProvider(api_key=settings.gemini_api_key)
         agent: Agent[None, _AiOutput] = Agent(
-            provider.model(settings.llm_model),
+            GoogleModel(settings.llm_model, provider=provider),
             result_type=_AiOutput,
             system_prompt=SYSTEM_PROMPT,
         )
