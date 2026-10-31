@@ -126,7 +126,7 @@ async def get_or_create_analysis(
         provider = GoogleProvider(api_key=settings.gemini_api_key)
         agent: Agent[None, _AiOutput] = Agent(
             GoogleModel(settings.llm_model, provider=provider),
-            result_type=_AiOutput,
+            output_type=_AiOutput,
             system_prompt=SYSTEM_PROMPT,
         )
 
@@ -136,7 +136,7 @@ async def get_or_create_analysis(
         result = await agent.run(user_message)
         latency_ms = int((time.monotonic() - start) * 1000)
 
-        output = _apply_guardrail(result.data, rule_results)
+        output = _apply_guardrail(result.output, rule_results)
 
         result_dict = output.model_dump()
         analysis = AiAnalysis(
