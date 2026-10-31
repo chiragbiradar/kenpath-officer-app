@@ -1,0 +1,83 @@
+{
+  "app_title": "ಪಾಸ್‌ಪೋರ್ಟ್ ಅಧಿಕಾರಿ ಸಾಧನ",
+  "login": {
+    "title": "ಅಧಿಕಾರಿ ಲಾಗಿನ್",
+    "email": "ಇಮೇಲ್",
+    "password": "ಪಾಸ್‌ವರ್ಡ್",
+    "submit": "ಲಾಗಿನ್",
+    "error": "ತಪ್ಪಾದ ಇಮೇಲ್ ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್"
+  },
+  "nav": {
+    "queue": "ಅರ್ಜಿ ಸಾಲು",
+    "logout": "ಲಾಗ್ ಔಟ್"
+  },
+  "stats": {
+    "pending": "ಬಾಕಿ ಇವೆ",
+    "due_soon": "ಶೀಘ್ರದಲ್ಲಿ ಅವಧಿ ಮುಗಿಯುತ್ತದೆ",
+    "overdue": "ಅವಧಿ ಮೀರಿದೆ",
+    "decided_today": "ಇಂದು ನಿರ್ಧಾರ"
+  },
+  "queue": {
+    "title": "ಅರ್ಜಿ ಸಾಲು",
+    "search_placeholder": "ಹೆಸರು ಅಥವಾ ಅರ್ಜಿ ಸಂಖ್ಯೆ ಹುಡುಕಿ",
+    "col_app_no": "ಅರ್ಜಿ ಸಂ.",
+    "col_name": "ಅರ್ಜಿದಾರ",
+    "col_type": "ವಿಧ",
+    "col_days": "ದಿನಗಳು",
+    "col_deadline": "ಅವಧಿ",
+    "col_flags": "ಗುರುತುಗಳು",
+    "col_action": "ಕ್ರಮ",
+    "view": "ನೋಡಿ",
+    "fresh": "ಹೊಸ",
+    "renewal": "ನವೀಕರಣ",
+    "empty": "ಅರ್ಜಿಗಳು ಇಲ್ಲ"
+  },
+  "deadline": {
+    "overdue": "ಅವಧಿ ಮೀರಿದೆ",
+    "due_soon": "ಶೀಘ್ರದಲ್ಲಿ",
+    "on_track": "ಸಮಯದಲ್ಲಿ"
+  },
+  "flags": {
+    "missing_docs": "ದಾಖಲೆ ಕಾಣೆ",
+    "fails": "ನಿಯಮ ವಿಫಲ",
+    "reviews": "ಪರಿಶೀಲನೆ"
+  },
+  "detail": {
+    "back": "ಹಿಂದೆ",
+    "applicant_info": "ಅರ್ಜಿದಾರ ಮಾಹಿತಿ",
+    "documents": "ದಾಖಲೆಗಳು",
+    "rule_checks": "ನಿಯಮ ಪರಿಶೀಲನೆ",
+    "ai_panel": "AI ಸಹಾಯ",
+    "present": "ಇದೆ",
+    "missing": "ಇಲ್ಲ",
+    "pass": "✓ ಪಾಸ್",
+    "fail": "✗ ವಿಫಲ",
+    "review": "⚠ ಪರಿಶೀಲನೆ",
+    "ai_badge": "AI ಸೂಚನೆ — ಅಧಿಕಾರಿ ನಿರ್ಧರಿಸುತ್ತಾರೆ",
+    "ai_summary": "ಸಾರಾಂಶ",
+    "ai_suggestion": "ಸೂಚಿತ ನಿರ್ಧಾರ",
+    "ai_reasons": "ಕಾರಣಗಳು",
+    "ai_unavailable": "AI ಲಭ್ಯವಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "regenerate": "ಮತ್ತೆ ವಿಶ್ಲೇಷಿಸಿ",
+    "analyse": "AI ವಿಶ್ಲೇಷಣೆ ಪಡೆಯಿರಿ",
+    "audit": "ಚಟುವಟಿಕೆ ದಾಖಲೆ"
+  },
+  "decision": {
+    "accept": "ಒಪ್ಪಿಗೆ (RPO ಗೆ ಕಳುಹಿಸಿ)",
+    "return": "ಹಿಂದೆ ಕಳುಹಿಸಿ",
+    "reject": "ತಿರಸ್ಕರಿಸಿ",
+    "remark_label": "ಟಿಪ್ಪಣಿ",
+    "remark_placeholder": "ತಿರಸ್ಕಾರ ಅಥವಾ ವಾಪಸಾತಿಗೆ ಕಾರಣ ನಮೂದಿಸಿ",
+    "confirm_return": "ಈ ಅರ್ಜಿಯನ್ನು ತಿದ್ದುಪಡಿಗಾಗಿ ಹಿಂದೆ ಕಳುಹಿಸಲು ಖಚಿತಪಡಿಸಿ?",
+    "confirm_reject": "ಈ ಅರ್ಜಿಯನ್ನು ತಿರಸ್ಕರಿಸಲು ಖಚಿತಪಡಿಸಿ?",
+    "confirm_yes": "ಹೌದು, ಮುಂದುವರಿಸಿ",
+    "confirm_cancel": "ರದ್ದು ಮಾಡಿ",
+    "success": "ನಿರ್ಧಾರ ದಾಖಲಾಗಿದೆ"
+  },
+  "status": {
+    "pending": "ಬಾಕಿ",
+    "accepted": "ಒಪ್ಪಿಗೆ",
+    "returned": "ಹಿಂದೆ ಕಳುಹಿಸಲಾಗಿದೆ",
+    "rejected": "ತಿರಸ್ಕೃತ"
+  }
+}

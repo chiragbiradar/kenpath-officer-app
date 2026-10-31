@@ -1,0 +1,83 @@
+{
+  "app_title": "PSK Officer Tool",
+  "login": {
+    "title": "Officer Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "error": "Invalid email or password"
+  },
+  "nav": {
+    "queue": "Application Queue",
+    "logout": "Logout"
+  },
+  "stats": {
+    "pending": "Pending",
+    "due_soon": "Due Soon",
+    "overdue": "Overdue",
+    "decided_today": "Decided Today"
+  },
+  "queue": {
+    "title": "Application Queue",
+    "search_placeholder": "Search by name or application number",
+    "col_app_no": "App No.",
+    "col_name": "Applicant",
+    "col_type": "Type",
+    "col_days": "Days",
+    "col_deadline": "Deadline",
+    "col_flags": "Flags",
+    "col_action": "Action",
+    "view": "View",
+    "fresh": "Fresh",
+    "renewal": "Renewal",
+    "empty": "No applications found"
+  },
+  "deadline": {
+    "overdue": "Overdue",
+    "due_soon": "Due Soon",
+    "on_track": "On Track"
+  },
+  "flags": {
+    "missing_docs": "doc missing",
+    "fails": "rule fail",
+    "reviews": "review"
+  },
+  "detail": {
+    "back": "Back",
+    "applicant_info": "Applicant Information",
+    "documents": "Documents",
+    "rule_checks": "Rule Checks",
+    "ai_panel": "AI Assistance",
+    "present": "Present",
+    "missing": "Missing",
+    "pass": "✓ Pass",
+    "fail": "✗ Fail",
+    "review": "⚠ Review",
+    "ai_badge": "AI Suggestion — Officer Decides",
+    "ai_summary": "Summary",
+    "ai_suggestion": "Suggested Decision",
+    "ai_reasons": "Reasons",
+    "ai_unavailable": "AI unavailable. Please retry.",
+    "regenerate": "Re-analyse",
+    "analyse": "Get AI Analysis",
+    "audit": "Activity Log"
+  },
+  "decision": {
+    "accept": "Accept (Send to RPO)",
+    "return": "Return for Correction",
+    "reject": "Reject",
+    "remark_label": "Remark",
+    "remark_placeholder": "Enter reason for rejection or return",
+    "confirm_return": "Confirm returning this application for correction?",
+    "confirm_reject": "Confirm rejecting this application?",
+    "confirm_yes": "Yes, Proceed",
+    "confirm_cancel": "Cancel",
+    "success": "Decision recorded"
+  },
+  "status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "returned": "Returned",
+    "rejected": "Rejected"
+  }
+}
